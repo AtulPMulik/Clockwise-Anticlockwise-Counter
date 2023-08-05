@@ -1,0 +1,9 @@
+.counter-container {
+  text-align: center;
+  color: orange;
+  border: 10px solid green;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  height: 100vh;
+}

@@ -1,0 +1,11 @@
+.count {
+  color: red;
+}
+.rev-count {
+  color: blue;
+}
+.heading {
+  text-decoration: underline;
+  font-style: italic;
+  color: purple;
+}
