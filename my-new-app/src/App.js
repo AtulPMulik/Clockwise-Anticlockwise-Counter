@@ -3,7 +3,7 @@ import Timer from "./components/Timer";
 import "./App.css";
 
 class App extends Component {
-  state = { clockWise: 0, anticlockWise: 10 };
+  state = { clockWise: 0, anticlockWise: 15 };
 
   constructor() {
     super();
@@ -25,7 +25,7 @@ class App extends Component {
 
   render() {
     const { clockWise, anticlockWise } = this.state;
-    if (clockWise === 10) {
+    if (clockWise === 15) {
       clearInterval(this.timerId);
     }
     if (anticlockWise === 0) {
